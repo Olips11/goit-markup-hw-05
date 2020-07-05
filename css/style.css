@@ -74,6 +74,8 @@ p {
 .header-logo:hover,
 .header-logo:focus {
   color: #2196f3;
+
+  transition: 250ms;
 }
 
 .header-logo-web {
@@ -119,6 +121,8 @@ p {
 .header-site-nav:hover,
 .header-site-nav:focus {
   color: #2196f3;
+
+  transition: 250ms;
 }
 
 .header-site-nav.current {
@@ -161,6 +165,8 @@ p {
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: #2196f3;
+
+  transition: 250ms;
 }
 
 .mail-icon-address {
@@ -173,6 +179,8 @@ p {
 .address-nav .link:hover .mail-icon-address,
 .address-nav .link:focus .mail-icon-address {
   fill: #2196f3;
+
+  transition: 250ms;
 }
 
 .tel-icon-address {
@@ -185,6 +193,8 @@ p {
 .address-nav .link:hover .tel-icon-address,
 .address-nav .link:focus .tel-icon-address {
   fill: #2196f3;
+
+  transition: 250ms;
 }
 
 /* .address-mail::before {
@@ -312,6 +322,8 @@ p {
 .banner-button:focus {
   color: #2196f3;
   background: #ffffff;
+
+  transition: 250ms;
 }
 
 /* section-work преимущества */
@@ -556,10 +568,14 @@ p {
 
 .soc-list .social-icon:hover {
   background-color: #2196f3;
+
+  transition: 250ms;
 }
 
 .soc-list .social-icon:hover .soc-icon {
   fill: #ffffff;
+
+  transition: 250ms;
 }
 
 /* .list-iteam.instagram {
@@ -624,11 +640,15 @@ p {
 .customers-list .item a:hover,
 .customers-list .item a:focus {
   border-color: #2196f3;
+
+  transition: 250ms;
 }
 
 .customers-list .item a:hover .client-icon,
 .customers-list .item a:focus .client-icon {
   fill: #2196f3;
+
+  transition: 250ms;
 }
 
 /* footer (Web Studio and Portfolio) */
@@ -721,6 +741,8 @@ p {
 
 .footer-soc-list .list-iteam:hover {
   background-color: #2196f3;
+
+  transition: 250ms;
 }
 
 .footer-soc-list .footer-list:not(:last-child) {
@@ -829,6 +851,8 @@ p {
 .filter-button:focus {
   color: #ffffff;
   background: #2196f3;
+
+  transition: 250ms;
 }
 
 .filter-button.current {
@@ -864,15 +888,21 @@ p {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+
+  transition: 250ms;
 }
 
 .projects-card:hover .projects-text {
   opacity: 1;
   color: #ffffff;
+
+  transition: 250ms;
 }
 
 .projects-card:hover::before {
   opacity: 1;
+
+  transition: 250ms;
 }
 
 .projects-list .item {
@@ -936,18 +966,17 @@ p {
 }
 
 .projects-text {
-  /* display: none; */
-  padding-bottom: 63px;
-  padding-top: 63px;
-  width: 368px;
-  padding-left: 24px;
-  padding-right: 24px;
-  display: flex;
-  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  padding-bottom: 63px;
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  /* display: flex; */
+  opacity: 0;
 
   /* transition: 250ms; */
 
@@ -955,10 +984,11 @@ p {
   margin-bottom: 0px;
 
   /* color: #ffffff; */
-  color: black;
+  /* color: black; */
 
   font-size: 18px;
   line-height: 1.55;
+  letter-spacing: 0.02em;
 }
 
 /* footer (Web Studio and Portfolio) */
