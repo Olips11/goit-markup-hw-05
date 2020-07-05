@@ -127,6 +127,7 @@ p {
 
 .header-site-nav.current {
   color: #2196f3;
+  border-bottom: 2px solid #2196f3;
 }
 
 /* header-adress */
