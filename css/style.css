@@ -954,7 +954,7 @@ p {
 
 .projects-card {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .projects-overlay {
