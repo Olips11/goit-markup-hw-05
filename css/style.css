@@ -69,13 +69,13 @@ p {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo:hover,
 .header-logo:focus {
   color: #2196f3;
-
-  transition: 250ms;
 }
 
 .header-logo-web {
@@ -116,13 +116,13 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-site-nav:hover,
 .header-site-nav:focus {
   color: #2196f3;
-
-  transition: 250ms;
 }
 
 .header-site-nav.current {
@@ -161,13 +161,13 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: #2196f3;
-
-  transition: 250ms;
 }
 
 .mail-icon-address {
@@ -175,13 +175,13 @@ p {
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-nav .link:hover .mail-icon-address,
 .address-nav .link:focus .mail-icon-address {
   fill: #2196f3;
-
-  transition: 250ms;
 }
 
 .tel-icon-address {
@@ -189,13 +189,13 @@ p {
   height: 14.94px;
   margin-right: 10px;
   fill: currentColor;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-nav .link:hover .tel-icon-address,
 .address-nav .link:focus .tel-icon-address {
   fill: #2196f3;
-
-  transition: 250ms;
 }
 
 /* .address-mail::before {
@@ -308,7 +308,7 @@ p {
   border-radius: 4px;
 
   color: #ffffff;
-  background: #2196f3;
+  background-color: #2196f3;
 
   border: 0px;
   font-weight: bold;
@@ -317,14 +317,15 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .banner-button:hover,
 .banner-button:focus {
   color: #2196f3;
-  background: #ffffff;
-
-  transition: 250ms;
+  background-color: #ffffff;
 }
 
 /* section-work преимущества */
@@ -556,6 +557,8 @@ p {
   padding: 12px;
   border-radius: 50%;
   background-repeat: no-repeat;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-list .items:not(:last-child) {
@@ -565,18 +568,17 @@ p {
 .soc-icon {
   background-size: 20px;
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-list .social-icon:hover {
+.soc-list .social-icon:hover,
+.soc-list .social-icon:focus {
   background-color: #2196f3;
-
-  transition: 250ms;
 }
 
 .soc-list .social-icon:hover .soc-icon {
   fill: #ffffff;
-
-  transition: 250ms;
 }
 
 /* .list-iteam.instagram {
@@ -628,6 +630,8 @@ p {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list .item:not(:last-child) {
@@ -636,20 +640,18 @@ p {
 
 .client-icon {
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list .item a:hover,
 .customers-list .item a:focus {
   border-color: #2196f3;
-
-  transition: 250ms;
 }
 
 .customers-list .item a:hover .client-icon,
 .customers-list .item a:focus .client-icon {
   fill: #2196f3;
-
-  transition: 250ms;
 }
 
 /* footer (Web Studio and Portfolio) */
@@ -733,6 +735,8 @@ p {
   border-radius: 50%;
   background-repeat: no-repeat;
   background-color: rgba(80, 82, 97, 0.8);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
@@ -742,8 +746,6 @@ p {
 
 .footer-soc-list .list-iteam:hover {
   background-color: #2196f3;
-
-  transition: 250ms;
 }
 
 .footer-soc-list .footer-list:not(:last-child) {
@@ -837,7 +839,7 @@ p {
   height: 38px;
 
   color: #212121;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 
   border: 0px;
   font-family: Roboto;
@@ -846,14 +848,15 @@ p {
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
-  background: #2196f3;
-
-  transition: 250ms;
+  background-color: #2196f3;
 }
 
 .filter-button.current {
@@ -889,21 +892,15 @@ p {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
-
-  transition: 250ms;
 }
 
 .projects-card:hover .projects-text {
   opacity: 1;
   color: #ffffff;
-
-  transition: 250ms;
 }
 
 .projects-card:hover::before {
   opacity: 1;
-
-  transition: 250ms;
 }
 
 .projects-list .item {
